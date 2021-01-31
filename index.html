@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ricardo's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <section id="intro" style="background-image: url('img/ein-steig.jpg');" class="intro">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <p class="italic">Oh, hello, nice to meet you!</p>
+              <h1>This is Ricardo'S Portfolio</h1>
+              <p class="italic">Please browse around</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="heading">About me</h2>
+            <p class="lead">This is about me</p>
+            <p>I'm a person of a great work ethic, I have made so many accomplshments in such a short amount of time. What I love to do on my freetime is to enjoy the outdoors and cruise on my longboard and enjoy the sunny weather here in San Diego. But last year I have picked up on another activity that I enjoy, and that is Coding. </p>
+            <p>I have always been someone that was described as a hardworker, as a matter of fact I enjoy being productive. Putting in those hours at the gym or school makes me feel accomplished and excited. My goals are to become a better person and bless many people in my lifetime, to teach and inspire.</p>
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/japan-mountains.jpg" alt="" class="img-fluid rounded-circle"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+    <!-- Services-->
+    <section id="services" style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <h2 class="heading">Services</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-desktop"></i></div>
+                  <h5>SoftWare Development</h5>
+                  <p>Developing applications that will please clients.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-print"></i></div>
+                  <h5>Web Design</h5>
+                  <p>Making a website look prestigious and beautiful.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-globe"></i></div>
+                  <h5>Data Management</h5>
+                  <p>Whether its for data analyst or just making your data more accessible.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services end-->
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Portfolio</h2>
+                <p>Here is my portfolio of my work I have completed. Please look around.</p>
+				<p>Car Insurance-C#: This project is an MVC web application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on buisness logic. There is also an admin page that allows staff to view all of the quotes that have beem issued.</p>
+				<p>TwentyOne-C#: Created a card game that I added funcitonality to it so dealers can shuffle the deck as many times as they want. If a user enters an incorrect format or a zero or even a negative number when asked to input bet and money balance, an exception will be thrown and a message is customized by me to help guide the user to the playing the twentyone game or out the door if they trigger a custom fraudexception</p>
+				<p>NewsLetterAppMVC-C# : This project displays how im able to utilize mvc to make sure the project wont collapse from any editing that may be needed to update or fix an error or bug. Also allowed me to display data from database to table. learning context to save and edit databases. i also have learned how to navigate the url on the browser to determine what view is being used to render the webpage.</p>
+				<p>DjangoCheckbook-Python: Learned how to use a specialized enviroments to create and write apps on python. I did this by creating a virtual enviroment folder. Also had got some practice in modifying the project on the console. Worked on database management. Learned how to register models so they can be called upon for use. also practiced my MVC but with Python</p>
+				<p>DjangoUniversity-Python: Created an app that used identification key to locate the student that needed to be reached to either view or edited. Also learned how to use migrations to update the code.</p>
+				<p>Project-HTML and CSS: Learned how to use link to a stylesheet. How to use relative and absolute paths to link images. Creating a box of text to give a brief desctription of what image the mouse is hovering.</p>
+				<p>Cinema-HTML and CSS: Use the documentation of the bootstrap website to research what each bootstrap code does, and it was used to create a navbar.</p>
+				<p> Calculator-JavaScript: Created a calculator by assigning values to operators and then listing those operators to only submit themselves until a certain action(click on button) is passed to the gui</p>
+				<p>TicTacToe-JavaScript: Created a web app that utilizes the media folder to add sound for example when the player wins a game of tic tac toe they will hear a winning bell, because of the reference to the mp3 file. Also uses images to display the X and O's.</p>
+				<p>Pizza_Project-HTML and CSS: A simple website that determines the cost of the pizza and use CSS to style it, create some padding, and to change the colors.</p>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+    <!-- text page-->
+    <!-- text page end-->
+    <!-- contact-->
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
