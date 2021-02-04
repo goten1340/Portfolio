@@ -1,1 +1,7 @@
 /* your styles go here */
+.list-group-item {
+	font-size: 1.7em;
+}
+.href {
+	font-color: blue;
+}
